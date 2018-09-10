@@ -3,4 +3,4 @@ dist: trusty
 group: stable
 language: cpp
 script:
-    - cmake
+    - cmake --build . -- -j2
